@@ -58,7 +58,9 @@ $ pm2 start ./daemons/jade.js
 $ pm2 start ./daemons/sass.js
 $ pm2 start ./daemons/livereload.js
 
-# ...and vanquish daemons when you're done.
+# ...do your web dev work...
+
+# ...then vanquish daemons when you're done.
 $ pm2 kill
 ```
 ## TODO
