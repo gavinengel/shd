@@ -1,6 +1,6 @@
 {
   "name": "shd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wrap little shell daemons in javascript",
   "main": "index.js",
   "keywords": ["shell", "daemon"],
