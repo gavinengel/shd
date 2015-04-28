@@ -51,7 +51,7 @@ var shd = require('shd')
 shd.start('jade -w index.jade')
 ```
 
-### step 3: summon daemons with process manager (ex: pm2):
+### step 3: summon daemons with process manager (ex. pm2):
 ```bash
 # start daemons 
 $ pm2 start ./daemons/jade.js
