@@ -65,6 +65,7 @@ $ pm2 kill
 ```
 ## TODO
 - display output from shell commands
+- advice on hohup, startup daemons
 
 ## Credits
 TODO
