@@ -66,6 +66,7 @@ $ pm2 kill
 ## TODO
 - display output from shell commands
 - advice on hohup, startup daemons
+- single line instead of 2 lines of custom code for a shd file
 
 ## Credits
 TODO
