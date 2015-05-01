@@ -47,13 +47,13 @@ npm install --save-dev shd
 ### step 2: add one shell command to single .js file:
 ```js
 #!/usr/bin/env node
-var shd = require('shd')
-shd.start('jade -w index.jade')
+require('shd').start('jade -w index.jade')
 ```
 
-### step 3: use process manager (ex. pm2):
+### step 3: use process manager which has automatically handle nohup (ex. pm2):
 ```bash
 # summon daemons before beginning work...
+# (alternatively `pm2 startup` allows services to start on boot.)
 $ pm2 start ./daemons/jade.js
 $ pm2 start ./daemons/sass.js
 $ pm2 start ./daemons/livereload.js
@@ -65,8 +65,6 @@ $ pm2 kill
 ```
 ## TODO
 - display output from shell commands
-- advice on hohup, startup daemons
-- single line instead of 2 lines of custom code for a shd file
 
 ## Credits
 TODO

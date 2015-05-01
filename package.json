@@ -1,6 +1,6 @@
 {
   "name": "shd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrap little shell daemons in javascript",
   "main": "index.js",
   "keywords": ["shell", "daemon"],
@@ -11,6 +11,6 @@
     "url": "http://github.com/gavinengel/shd.git"
   },
   "dependencies": {
-    "oh-my-terminal": "^1.0.0"
+    "oh-my-terminal": "1.x"
   }
 }
