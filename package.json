@@ -1,15 +1,10 @@
 {
   "name": "shd",
-  "version": "0.0.3",
-  "description": "Wrap little shell daemons in javascript",
+  "version": "0.0.4",
+  "description": "...",
   "main": "index.js",
-  "keywords": ["shell", "daemon"],
   "author": "Gavin Engel <gavin@engel.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/gavinengel/shd.git"
-  },
   "dependencies": {
     "oh-my-terminal": "1.x"
   }
